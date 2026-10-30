@@ -1,0 +1,12 @@
+node_modules/
+public/wasm/*.wasm
+backend/model_assets/social_robot_gaze/
+__pycache__/
+*.py[cod]
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example

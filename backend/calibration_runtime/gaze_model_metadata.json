@@ -1,0 +1,67 @@
+{
+    "feature_version": "v5_eye_features_4",
+    "feature_names": [
+        "left_h",
+        "left_v",
+        "right_h",
+        "right_v"
+    ],
+    "feature_count": 4,
+    "use_head_pose": false,
+    "participant_id": "child_session_default",
+    "session_id": "calibration_1793324261",
+    "calibration_quality": "GOOD",
+    "calibration_quality_threshold_px": 150.0,
+    "model_type": "ridge_polynomial",
+    "cv_mean_error_px": 95.5593939181271,
+    "cv_median_error_px": 90.6470275039103,
+    "cv_worst_error_px": 224.94693721959192,
+    "cv_corrected_mean_error_px": 96.16738143205087,
+    "cv_corrected_median_error_px": 89.59425429483872,
+    "cv_all_models_px": {
+        "ridge_linear": {
+            "mean": 114.68186903485913,
+            "median": 108.47884363838938,
+            "worst": 327.01275320142696
+        },
+        "ridge_polynomial": {
+            "mean": 95.5593939181271,
+            "median": 90.6470275039103,
+            "worst": 224.94693721959192
+        },
+        "svr_rbf": {
+            "mean": 127.27434791416407,
+            "median": 96.35736456696029,
+            "worst": 371.57723870475127
+        },
+        "kernel_ridge_rbf": {
+            "mean": 233.2850501871201,
+            "median": 116.20770935377502,
+            "worst": 1330.6407200047697
+        }
+    },
+    "affine_correction": [
+        [
+            0.98878576346052,
+            0.009113490976781328
+        ],
+        [
+            -0.006519330425524444,
+            0.9943448961641665
+        ],
+        [
+            12.189158736797758,
+            -3.7228287648602527
+        ]
+    ],
+    "screen_width": 1536,
+    "screen_height": 864,
+    "margin_x": 100,
+    "margin_y": 80,
+    "grid_rows": 5,
+    "grid_cols": 10,
+    "n_calibration_points": 50,
+    "n_samples": 50,
+    "calibration_method": "robust_median_per_point",
+    "quality_notes": "Calibration uses four eye-position features and excludes head-pose inputs. Stable samples are filtered per target."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Eye-play - Gaze Interaction and Visual Attention Activities",
+  "description": "A child-friendly gaze-interaction research prototype with Bao the Panda. Outputs are estimates and are not clinical measures or diagnoses.",
+  "requestFramePermissions": ["camera"]
+}
